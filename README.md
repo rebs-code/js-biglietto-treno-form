@@ -2,6 +2,8 @@
 
 Questo semplice programma presenta all'utente un sito dove egli potrà acquistare un biglietto ferroviario. All'apertura della pagina, all'utente verrà presentato un form dove dovrà inserire alcuni input. Alla fine del processo, cliccando un bottone, verrà generato un biglietto. 
 
+## Descrizione
+
 Chiedere gli input all'utente:
 
 1- In un campo input, l'utente dovrà inserire il proprio nome e cognome.
@@ -17,3 +19,10 @@ Chiedere gli input all'utente:
 
 5- Il form è sempre presente. Alla fine del form ci saranno due bottoni. Uno per calcolare il prezzo del biglietto e far apparire il div dove c'è il biglietto, l'altro per annullare e resettare gli input e far sparire il biglietto qualora fosse presente.
 
+![screenshot](https://github.com/rebs-code/js-biglietto-treno-form/assets/80966551/8fd25c62-913c-4328-94f4-a720d23c390f)
+
+## Tecnologie Web Utilizzate
+ - HTML
+ - CSS
+ - JS
+ - Bootstrap
