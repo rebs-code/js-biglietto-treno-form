@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="main-container container text-center">
-        <h1 class="text-white font-weight-bold text-uppercase">Calcola il prezzo del tuo biglietto</h1>
-        <div class="bg-white rounded-4 p-4">
+        <h1 class="text-white font-weight-bold text-uppercase mt-3">Calcola il prezzo del tuo biglietto</h1>
+        <div class="bg-white rounded-4 p-4" id="ticket-form">
             <table class="table">
                 <thead>
                   <tr>
@@ -42,6 +42,45 @@
             </table>
             <button type="button" id="generate-button" class="btn btn-light text-pink bg-grey-light fw-bolder me-4">Genera</button>
             <button type="button" id="cancel-button" class="btn btn-light text-pink bg-grey-light fw-bolder">Annulla</button>
+
+        </div>
+        <h1 class="text-white font-weight-bold text-uppercase mt-3">Il tuo biglietto</h1>
+        <div class="bg-white p-4" id="ticket-info">
+            <h3 class="text-uppercase text-start fs-5 fw-bold">Dettaglio passeggeri</h3>
+            <div class="d-flex border border-end-0">
+                <div class="bg-grey p-3 col-2">
+                    <h4 class="text-uppercase fs-6">Nome passeggero</h4>
+                    <p id="passenger-name"></p>
+                </div>
+                <div>
+                    <table class="w-100 table">
+                        <thead>
+                          <tr>
+                            <th>Offerta</th>
+                            <th>Carrozza</th>
+                            <th>Codice CP</th>
+                            <th>Costo Biglietto</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="border-0">
+                                <p id="tier">tier</p>
+                            </td>
+                            <td class="border-0">
+                                <p id="carriage">carriage</p>
+                            </td>
+                            <td class="border-0">
+                                <p id="code">code</p>
+                            </td>
+                            <td class="border-0">
+                                <p id="price">price</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
         </div>
     </div>
