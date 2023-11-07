@@ -1,0 +1,45 @@
+/* COMMON */
+
+body {
+    background-color: var(--brand-pink);
+}
+
+input:focus {
+    background-color: #b9154673;
+    color: white;
+}
+
+select:focus {
+    background-color:  #b9154673;
+    color: white;
+}
+
+/* VARIABLES */
+
+:root {
+    --brand-pink: #b91547;
+    --brand-grey: #757575;
+    --brand-grey-light: #c5c5c5;
+}
+
+/* COLORS */
+
+.bg-pink {
+    background-color: var(--brand-pink);
+}
+
+.bg-grey {
+    background-color: var(--brand-grey);
+}
+
+.bg-grey-light {
+    background-color: var(--brand-grey-light);
+}
+
+.text-pink {
+    color: var(--brand-pink);
+}
+
+.text-grey {
+    color: var(--brand-grey);
+}

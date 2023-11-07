@@ -8,7 +8,44 @@
     <title>Biglietto del treno</title>
 </head>
 <body>
+    <div class="main-container container text-center">
+        <h1 class="text-white font-weight-bold text-uppercase">Calcola il prezzo del tuo biglietto</h1>
+        <div class="bg-white rounded-4 p-4">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th>Nome e Cognome</th>
+                    <th>Chilometri da Percorrere</th>
+                    <th>Fascia età</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                        <label for="name"></label>
+                        <input type="text" id="name" required>
+                    </td>
+                    <td>
+                        <label for="distance"></label>
+                        <input type="number" id="distance" required>
+                    </td>
+                    <td>
+                        <label for="age"></label>
+                        <select id="age">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over65">Over 65</option>
+                        </select>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+            <button type="button" id="generate-button" class="btn btn-light text-pink bg-grey-light fw-bolder me-4">Genera</button>
+            <button type="button" id="cancel-button" class="btn btn-light text-pink bg-grey-light fw-bolder">Annulla</button>
 
+        </div>
+    </div>
+    
 
     
 </body>
